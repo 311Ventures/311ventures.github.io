@@ -8,14 +8,17 @@
 	margin: 0;
 }
 
-.img img {
-	height: 100vh;
-}
-
 .img {
-	padding-left: 0px !important; 
+	height: 100vh;
+	background-image: url("../img/311.png");
+	background-size: cover;
+	background-position: 50% 75%;
 }
 
-/*.text {
-	padding-left: 100px !important;
-}*/
+.box {
+	width: 600px;
+	height: auto;
+
+	margin-left: auto;
+	margin-right: auto;
+}
