@@ -16,9 +16,10 @@
 }
 
 .box {
-	width: 600px;
+	width: 69%;
 	height: auto;
 
 	margin-left: auto;
 	margin-right: auto;
+	margin-bottom: 50px;
 }
