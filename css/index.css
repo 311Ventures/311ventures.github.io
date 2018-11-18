@@ -8,6 +8,11 @@
 	margin: 0;
 }
 
+.logo {
+	height: 100px;
+
+}
+
 .img {
 	height: 100vh;
 	background-image: url("../img/311.png");
