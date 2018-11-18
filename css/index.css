@@ -13,13 +13,6 @@
 
 }
 
-.img {
-	height: 100vh;
-	background-image: url("../img/311.png");
-	background-size: cover;
-	background-position: 50% 75%;
-}
-
 .text {
 	height: 100vh;
 }
@@ -33,6 +26,10 @@
 	margin-bottom: 50px;
 }
 
+#boba:hover {
+	font-size: 50px;
+}
+
 #fireButton {
 	color: red;
 }
@@ -43,6 +40,14 @@
 
 #putOutFire:hover {
 	text-decoration: underline;
+}
+
+
+.img {
+	height: 100vh;
+	background-image: url("../img/311.png");
+	background-size: cover;
+	background-position: 50% 75%;
 }
 
 /* large screen media query */
