@@ -33,6 +33,10 @@
 	margin-bottom: 50px;
 }
 
+#fireButton {
+	color: red;
+}
+
 /* large screen media query */
 @media only screen and (min-width 1025px) {
 	.box {
