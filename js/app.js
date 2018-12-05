@@ -29,5 +29,21 @@ document.querySelector('#hanukkahMode').addEventListener('click', function() {
 	this.style.display = "none"
 });
 
+// christmas ludicrous
+document.querySelector('#christmasSurprise').addEventListener('click', function() {
+	document.getElementById('extinguishChristmasFlames').style.visibility = "visible"
+	var christmasFlame = document.getElementById('christmasFlames')
+	christmasFlame.play();
+	console.log('bitch im a christmas cow')
+
+	// extinguish christmas flames button
+	document.querySelector('#extinguishChristmasFlames').addEventListener('click', function() {
+		christmasFlame.pause();
+		console.log('no can handle christmas flames')
+	});
+});
+
+
+
 
 
