@@ -1,0 +1,28 @@
+.person {
+	text-align: center;
+}
+.person h3 {color: black;}
+.person h3:hover {
+	text-decoration: underline;
+}
+
+.icon {
+	border-radius: 50%; 
+	width: 200px; 
+	height: 200px;
+}
+
+.icon:hover {
+	-webkit-animation-name: spin;
+	-webkit-animation-duration: 4000ms;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+}
+
+@keyframes spin { 
+    from { 
+        transform: rotate(0deg); 
+    } to { 
+        transform: rotate(360deg); 
+    }
+}
