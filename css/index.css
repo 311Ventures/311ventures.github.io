@@ -43,7 +43,7 @@
 }
 
 
-.img {
+#img {
 	height: 100vh;
 	background-image: url("../img/311_christmas.png");
 	background-size: cover;

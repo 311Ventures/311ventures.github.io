@@ -16,6 +16,18 @@ var time = new Date();
 min = time.getMinutes();
 hour = time.getHours();
 
+// this logic probably wrong
 if (hour == 3 || hour == 15 && min == 11) {
 	flames.play();
 }
+
+// hanukkah mode
+// stop button
+document.querySelector('#hanukkahMode').addEventListener('click', function() {
+	console.log('clickkkk!')
+	document.getElementById('img').style.backgroundImage = "url('img/311_hanukkah.jpg')"
+	this.style.display = "none"
+});
+
+
+
