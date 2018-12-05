@@ -1,58 +1,6 @@
-.container {
-	max-width: 100%;
-	width: 100%;
-}
-
-.row {
-	width: 100%;
-	margin: 0;
-}
-
-.logo {
-	height: 100px;
-
-}
-
-.text {
-	height: 100vh;
-}
-
-.box {
-	width: 80%;
-	height: auto;
-
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 50px;
-}
-
-#boba:hover {
-	font-size: 50px;
-}
-
-#fireButton {
-	color: red;
-}
-
-#fireButton:hover {
-	text-decoration: underline;
-}
-
-#putOutFire:hover {
-	text-decoration: underline;
-}
-
-
 .img {
 	height: 100vh;
 	background-image: url("../img/matt.png");
 	background-size: cover;
 	background-position: 50% 75%;
-}
-
-/* large screen media query */
-@media only screen and (min-width 1025px) {
-	.box {
-		width: 69%;
-	}
 }
